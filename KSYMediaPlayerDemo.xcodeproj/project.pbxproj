@@ -1,0 +1,1057 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		568B24EEB3EC143CE4C067ED /* libPods-KSYMediaPlayerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1D6E23C8FFFFE275E3C3BF /* libPods-KSYMediaPlayerDemoTests.a */; };
+		5F6D2E14F764880F39232B74 /* libPods-KSYMediaPlayerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789EB31FCCD889C58935453 /* libPods-KSYMediaPlayerDemoUITests.a */; };
+		7800A7A520047A3500D75647 /* KSYNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800A7A320047A3500D75647 /* KSYNavigationViewController.m */; };
+		7800A7A620047A3500D75647 /* KSYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800A7A420047A3500D75647 /* KSYTabBarViewController.m */; };
+		7800A7AF20047A4700D75647 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800A7A720047A4700D75647 /* UIImage+image.m */; };
+		7800A7B020047A4700D75647 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800A7AA20047A4700D75647 /* UIBarButtonItem+Item.m */; };
+		7800A7B120047A4700D75647 /* WXCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800A7AB20047A4700D75647 /* WXCustomTabBar.m */; };
+		7800A7B220047A4700D75647 /* KSYTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800A7AC20047A4700D75647 /* KSYTabBarButton.m */; };
+		7800A7B720047A5000D75647 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800A7B420047A5000D75647 /* UIView+Extension.m */; };
+		7800A7B820047A5000D75647 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800A7B520047A5000D75647 /* UIButton+Extension.m */; };
+		7800A7BE200492E100D75647 /* KSYLiveCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800A7BD200492E000D75647 /* KSYLiveCollectionVC.m */; };
+		7800A7C1200497E800D75647 /* KSYCaremaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800A7C0200497E800D75647 /* KSYCaremaViewController.m */; };
+		7800A7C42004982E00D75647 /* KSYSelectTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800A7C32004982E00D75647 /* KSYSelectTypeViewController.m */; };
+		7810420B1FF100C5001FD5FE /* 618443029.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7810420A1FF100C5001FD5FE /* 618443029.mp4 */; };
+		7810420D1FF100D6001FD5FE /* ScreenRecording.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 7810420C1FF100D6001FD5FE /* ScreenRecording.MP4 */; };
+		7810420F1FF100E4001FD5FE /* 屏幕录制.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 7810420E1FF100E4001FD5FE /* 屏幕录制.MP4 */; };
+		781042121FF102EE001FD5FE /* KSYPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781042111FF102EE001FD5FE /* KSYPlayerViewController.m */; };
+		7819E40C1FFF1F2800F1FC62 /* KSYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7819E40B1FFF1F2800F1FC62 /* KSYBaseViewController.m */; };
+		7819E40F1FFF4CAF00F1FC62 /* KSYVodPlayControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7819E40E1FFF4CAF00F1FC62 /* KSYVodPlayControlView.m */; };
+		7819E4131FFF5DED00F1FC62 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7819E4121FFF5DED00F1FC62 /* UIColor+Additions.m */; };
+		7819E4161FFF5EFE00F1FC62 /* UIButton+KSYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7819E4151FFF5EFE00F1FC62 /* UIButton+KSYAdditions.m */; };
+		783CC1341FF37F0A00556DB7 /* KSYHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 783CC1331FF37F0A00556DB7 /* KSYHttpTool.m */; };
+		78B734A91FECF0620022B8FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B734A81FECF0620022B8FD /* AppDelegate.m */; };
+		78B734AC1FECF0620022B8FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B734AB1FECF0620022B8FD /* ViewController.m */; };
+		78B734AF1FECF0620022B8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B734AD1FECF0620022B8FD /* Main.storyboard */; };
+		78B734B11FECF0620022B8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B734B01FECF0620022B8FD /* Assets.xcassets */; };
+		78B734B41FECF0620022B8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B734B21FECF0620022B8FD /* LaunchScreen.storyboard */; };
+		78B734B71FECF0620022B8FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B734B61FECF0620022B8FD /* main.m */; };
+		78B734C11FECF0620022B8FD /* KSYMediaPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B734C01FECF0620022B8FD /* KSYMediaPlayerDemoTests.m */; };
+		78B734CC1FECF0620022B8FD /* KSYMediaPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B734CB1FECF0620022B8FD /* KSYMediaPlayerDemoUITests.m */; };
+		78B734DC1FECF4390022B8FD /* KSYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B734DB1FECF4390022B8FD /* KSYMainViewController.m */; };
+		78F69E0620035669002CAAA5 /* KSYVodPlayOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F69E0520035669002CAAA5 /* KSYVodPlayOperationView.m */; };
+		78F69E0A20035B10002CAAA5 /* KSYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F69E0920035B10002CAAA5 /* KSYBaseView.m */; };
+		78F8B1E01FF23A8C0052B492 /* 2a56ea3e36eeb45ac1cfb2e79ac6dc20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78F8B1DF1FF23A8C0052B492 /* 2a56ea3e36eeb45ac1cfb2e79ac6dc20.jpg */; };
+		78F8B1E31FF23AC20052B492 /* KSYWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F8B1E21FF23AC20052B492 /* KSYWaterFallLayout.m */; };
+		78F8B1E61FF2402B0052B492 /* KSYMainCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F8B1E51FF2402B0052B492 /* KSYMainCollectionVC.m */; };
+		78F8B1E91FF242E50052B492 /* KSYImageAndLabelCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F8B1E81FF242E50052B492 /* KSYImageAndLabelCollectionViewCell.m */; };
+		78F8B1EC1FF244EB0052B492 /* KSYImageAndLableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F8B1EB1FF244EB0052B492 /* KSYImageAndLableModel.m */; };
+		78FB97071FF1EADF00B47B25 /* KSYPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB97061FF1EADF00B47B25 /* KSYPlayerModel.m */; };
+		78FB97531FF2344300B47B25 /* KSYSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB97521FF2344300B47B25 /* KSYSettingModel.m */; };
+		E76C180C0A4C625A223D22B7 /* libPods-KSYMediaPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A478EDF307590D5D39DE7C6 /* libPods-KSYMediaPlayerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78B734BD1FECF0620022B8FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78B7349C1FECF0620022B8FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78B734A31FECF0620022B8FD;
+			remoteInfo = KSYMediaPlayerDemo;
+		};
+		78B734C81FECF0620022B8FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78B7349C1FECF0620022B8FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78B734A31FECF0620022B8FD;
+			remoteInfo = KSYMediaPlayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AF0CE01B1B58C373E5F0208 /* Pods-KSYMediaPlayerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSYMediaPlayerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSYMediaPlayerDemoTests/Pods-KSYMediaPlayerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C1D6E23C8FFFFE275E3C3BF /* libPods-KSYMediaPlayerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSYMediaPlayerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33FC0E85DE3FDB2330D7E48E /* Pods-KSYMediaPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSYMediaPlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSYMediaPlayerDemo/Pods-KSYMediaPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		599678A5201DC98F4239732C /* Pods-KSYMediaPlayerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSYMediaPlayerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSYMediaPlayerDemoUITests/Pods-KSYMediaPlayerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7789EB31FCCD889C58935453 /* libPods-KSYMediaPlayerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSYMediaPlayerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7800A7A120047A3500D75647 /* KSYNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYNavigationViewController.h; sourceTree = "<group>"; };
+		7800A7A220047A3500D75647 /* KSYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYTabBarViewController.h; sourceTree = "<group>"; };
+		7800A7A320047A3500D75647 /* KSYNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYNavigationViewController.m; sourceTree = "<group>"; };
+		7800A7A420047A3500D75647 /* KSYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYTabBarViewController.m; sourceTree = "<group>"; };
+		7800A7A720047A4700D75647 /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		7800A7A820047A4700D75647 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		7800A7A920047A4700D75647 /* KSYTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYTabBarButton.h; sourceTree = "<group>"; };
+		7800A7AA20047A4700D75647 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		7800A7AB20047A4700D75647 /* WXCustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCustomTabBar.m; sourceTree = "<group>"; };
+		7800A7AC20047A4700D75647 /* KSYTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYTabBarButton.m; sourceTree = "<group>"; };
+		7800A7AD20047A4700D75647 /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		7800A7AE20047A4700D75647 /* WXCustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCustomTabBar.h; sourceTree = "<group>"; };
+		7800A7B320047A5000D75647 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		7800A7B420047A5000D75647 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		7800A7B520047A5000D75647 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		7800A7B620047A5000D75647 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		7800A7BC200492E000D75647 /* KSYLiveCollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYLiveCollectionVC.h; sourceTree = "<group>"; };
+		7800A7BD200492E000D75647 /* KSYLiveCollectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYLiveCollectionVC.m; sourceTree = "<group>"; };
+		7800A7BF200497E800D75647 /* KSYCaremaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYCaremaViewController.h; sourceTree = "<group>"; };
+		7800A7C0200497E800D75647 /* KSYCaremaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYCaremaViewController.m; sourceTree = "<group>"; };
+		7800A7C22004982E00D75647 /* KSYSelectTypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYSelectTypeViewController.h; sourceTree = "<group>"; };
+		7800A7C32004982E00D75647 /* KSYSelectTypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYSelectTypeViewController.m; sourceTree = "<group>"; };
+		7810420A1FF100C5001FD5FE /* 618443029.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 618443029.mp4; sourceTree = "<group>"; };
+		7810420C1FF100D6001FD5FE /* ScreenRecording.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ScreenRecording.MP4; sourceTree = "<group>"; };
+		7810420E1FF100E4001FD5FE /* 屏幕录制.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "屏幕录制.MP4"; sourceTree = "<group>"; };
+		781042101FF102EE001FD5FE /* KSYPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYPlayerViewController.h; sourceTree = "<group>"; };
+		781042111FF102EE001FD5FE /* KSYPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYPlayerViewController.m; sourceTree = "<group>"; };
+		781042141FF11DC3001FD5FE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7819E40A1FFF1F2800F1FC62 /* KSYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYBaseViewController.h; sourceTree = "<group>"; };
+		7819E40B1FFF1F2800F1FC62 /* KSYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYBaseViewController.m; sourceTree = "<group>"; };
+		7819E40D1FFF4CAF00F1FC62 /* KSYVodPlayControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYVodPlayControlView.h; sourceTree = "<group>"; };
+		7819E40E1FFF4CAF00F1FC62 /* KSYVodPlayControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYVodPlayControlView.m; sourceTree = "<group>"; };
+		7819E4111FFF5DED00F1FC62 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		7819E4121FFF5DED00F1FC62 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		7819E4141FFF5EFE00F1FC62 /* UIButton+KSYAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+KSYAdditions.h"; sourceTree = "<group>"; };
+		7819E4151FFF5EFE00F1FC62 /* UIButton+KSYAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KSYAdditions.m"; sourceTree = "<group>"; };
+		783CC1321FF37F0A00556DB7 /* KSYHttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYHttpTool.h; sourceTree = "<group>"; };
+		783CC1331FF37F0A00556DB7 /* KSYHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYHttpTool.m; sourceTree = "<group>"; };
+		78B734A41FECF0620022B8FD /* KSYMediaPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSYMediaPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B734A71FECF0620022B8FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78B734A81FECF0620022B8FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78B734AA1FECF0620022B8FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78B734AB1FECF0620022B8FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78B734AE1FECF0620022B8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78B734B01FECF0620022B8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78B734B31FECF0620022B8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78B734B51FECF0620022B8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B734B61FECF0620022B8FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78B734BC1FECF0620022B8FD /* KSYMediaPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSYMediaPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B734C01FECF0620022B8FD /* KSYMediaPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYMediaPlayerDemoTests.m; sourceTree = "<group>"; };
+		78B734C21FECF0620022B8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B734C71FECF0620022B8FD /* KSYMediaPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSYMediaPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B734CB1FECF0620022B8FD /* KSYMediaPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYMediaPlayerDemoUITests.m; sourceTree = "<group>"; };
+		78B734CD1FECF0620022B8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B734DA1FECF4390022B8FD /* KSYMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYMainViewController.h; sourceTree = "<group>"; };
+		78B734DB1FECF4390022B8FD /* KSYMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYMainViewController.m; sourceTree = "<group>"; };
+		78F69E0420035669002CAAA5 /* KSYVodPlayOperationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYVodPlayOperationView.h; sourceTree = "<group>"; };
+		78F69E0520035669002CAAA5 /* KSYVodPlayOperationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYVodPlayOperationView.m; sourceTree = "<group>"; };
+		78F69E0820035B10002CAAA5 /* KSYBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYBaseView.h; sourceTree = "<group>"; };
+		78F69E0920035B10002CAAA5 /* KSYBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYBaseView.m; sourceTree = "<group>"; };
+		78F69E0B20035BAB002CAAA5 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		78F8B1DF1FF23A8C0052B492 /* 2a56ea3e36eeb45ac1cfb2e79ac6dc20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2a56ea3e36eeb45ac1cfb2e79ac6dc20.jpg; sourceTree = "<group>"; };
+		78F8B1E11FF23AC20052B492 /* KSYWaterFallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYWaterFallLayout.h; sourceTree = "<group>"; };
+		78F8B1E21FF23AC20052B492 /* KSYWaterFallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYWaterFallLayout.m; sourceTree = "<group>"; };
+		78F8B1E41FF2402B0052B492 /* KSYMainCollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYMainCollectionVC.h; sourceTree = "<group>"; };
+		78F8B1E51FF2402B0052B492 /* KSYMainCollectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYMainCollectionVC.m; sourceTree = "<group>"; };
+		78F8B1E71FF242E50052B492 /* KSYImageAndLabelCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYImageAndLabelCollectionViewCell.h; sourceTree = "<group>"; };
+		78F8B1E81FF242E50052B492 /* KSYImageAndLabelCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYImageAndLabelCollectionViewCell.m; sourceTree = "<group>"; };
+		78F8B1EA1FF244EB0052B492 /* KSYImageAndLableModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYImageAndLableModel.h; sourceTree = "<group>"; };
+		78F8B1EB1FF244EB0052B492 /* KSYImageAndLableModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYImageAndLableModel.m; sourceTree = "<group>"; };
+		78FB97051FF1EADF00B47B25 /* KSYPlayerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYPlayerModel.h; sourceTree = "<group>"; };
+		78FB97061FF1EADF00B47B25 /* KSYPlayerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYPlayerModel.m; sourceTree = "<group>"; };
+		78FB97511FF2344300B47B25 /* KSYSettingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYSettingModel.h; sourceTree = "<group>"; };
+		78FB97521FF2344300B47B25 /* KSYSettingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYSettingModel.m; sourceTree = "<group>"; };
+		93E3B58463952823986DB5CA /* Pods-KSYMediaPlayerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSYMediaPlayerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSYMediaPlayerDemoUITests/Pods-KSYMediaPlayerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A478EDF307590D5D39DE7C6 /* libPods-KSYMediaPlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSYMediaPlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FB41898FDA9C4A76965B2F /* Pods-KSYMediaPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSYMediaPlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSYMediaPlayerDemo/Pods-KSYMediaPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F921F5C38C1C5D3C46C73E6A /* Pods-KSYMediaPlayerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSYMediaPlayerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSYMediaPlayerDemoTests/Pods-KSYMediaPlayerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78B734A11FECF0620022B8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76C180C0A4C625A223D22B7 /* libPods-KSYMediaPlayerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B734B91FECF0620022B8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568B24EEB3EC143CE4C067ED /* libPods-KSYMediaPlayerDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B734C41FECF0620022B8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6D2E14F764880F39232B74 /* libPods-KSYMediaPlayerDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D52A5B15158061FA4A2C4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33FC0E85DE3FDB2330D7E48E /* Pods-KSYMediaPlayerDemo.debug.xcconfig */,
+				A1FB41898FDA9C4A76965B2F /* Pods-KSYMediaPlayerDemo.release.xcconfig */,
+				1AF0CE01B1B58C373E5F0208 /* Pods-KSYMediaPlayerDemoTests.debug.xcconfig */,
+				F921F5C38C1C5D3C46C73E6A /* Pods-KSYMediaPlayerDemoTests.release.xcconfig */,
+				93E3B58463952823986DB5CA /* Pods-KSYMediaPlayerDemoUITests.debug.xcconfig */,
+				599678A5201DC98F4239732C /* Pods-KSYMediaPlayerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7800A79E200479CB00D75647 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7800A7A120047A3500D75647 /* KSYNavigationViewController.h */,
+				7800A7A320047A3500D75647 /* KSYNavigationViewController.m */,
+				7800A7A220047A3500D75647 /* KSYTabBarViewController.h */,
+				7800A7A420047A3500D75647 /* KSYTabBarViewController.m */,
+				7819E40A1FFF1F2800F1FC62 /* KSYBaseViewController.h */,
+				7819E40B1FFF1F2800F1FC62 /* KSYBaseViewController.m */,
+			);
+			name = ViewController;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7800A79F20047A0100D75647 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7800A7C62004A28800D75647 /* ShortVideo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShortVideo;
+			sourceTree = "<group>";
+		};
+		781042091FF100B0001FD5FE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				78F8B1DF1FF23A8C0052B492 /* 2a56ea3e36eeb45ac1cfb2e79ac6dc20.jpg */,
+				7810420A1FF100C5001FD5FE /* 618443029.mp4 */,
+				7810420C1FF100D6001FD5FE /* ScreenRecording.MP4 */,
+				7810420E1FF100E4001FD5FE /* 屏幕录制.MP4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7819E4091FFF1F0000F1FC62 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7800A79F20047A0100D75647 /* Model */,
+				7800A79E200479CB00D75647 /* ViewController */,
+				78F69E0720035AFA002CAAA5 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7819E4101FFF5DD100F1FC62 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7819E4111FFF5DED00F1FC62 /* UIColor+Additions.h */,
+				7819E4121FFF5DED00F1FC62 /* UIColor+Additions.m */,
+				7819E4141FFF5EFE00F1FC62 /* UIButton+KSYAdditions.h */,
+				7819E4151FFF5EFE00F1FC62 /* UIButton+KSYAdditions.m */,
+				7800A7B620047A5000D75647 /* UIView+Extension.h */,
+				7800A7B420047A5000D75647 /* UIView+Extension.m */,
+				7800A7B320047A5000D75647 /* UIButton+Extension.h */,
+				7800A7B520047A5000D75647 /* UIButton+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		783CC1311FF37DEA00556DB7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				783CC1321FF37F0A00556DB7 /* KSYHttpTool.h */,
+				783CC1331FF37F0A00556DB7 /* KSYHttpTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		78B7349B1FECF0620022B8FD = {
+			isa = PBXGroup;
+			children = (
+				78B734A61FECF0620022B8FD /* KSYMediaPlayerDemo */,
+				78B734BF1FECF0620022B8FD /* KSYMediaPlayerDemoTests */,
+				78B734CA1FECF0620022B8FD /* KSYMediaPlayerDemoUITests */,
+				78B734A51FECF0620022B8FD /* Products */,
+				19D52A5B15158061FA4A2C4E /* Pods */,
+				E4A9B8B57F7B1AD8A22FED9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78B734A51FECF0620022B8FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78B734A41FECF0620022B8FD /* KSYMediaPlayerDemo.app */,
+				78B734BC1FECF0620022B8FD /* KSYMediaPlayerDemoTests.xctest */,
+				78B734C71FECF0620022B8FD /* KSYMediaPlayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78B734A61FECF0620022B8FD /* KSYMediaPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7800A7C62004A28800D75647 /* ShortVideo */,
+				7819E4101FFF5DD100F1FC62 /* Category */,
+				7819E4091FFF1F0000F1FC62 /* Main */,
+				783CC1311FF37DEA00556DB7 /* Tool */,
+				78FB974F1FF233B000B47B25 /* AppDelegate */,
+				78B734D91FECF40D0022B8FD /* MainVC */,
+				78B734AD1FECF0620022B8FD /* Main.storyboard */,
+				78B734B01FECF0620022B8FD /* Assets.xcassets */,
+				78B734B21FECF0620022B8FD /* LaunchScreen.storyboard */,
+				78B734B51FECF0620022B8FD /* Info.plist */,
+				78B734B61FECF0620022B8FD /* main.m */,
+				781042141FF11DC3001FD5FE /* PrefixHeader.pch */,
+				781042091FF100B0001FD5FE /* Resource */,
+			);
+			path = KSYMediaPlayerDemo;
+			sourceTree = "<group>";
+		};
+		78B734BF1FECF0620022B8FD /* KSYMediaPlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				78B734C01FECF0620022B8FD /* KSYMediaPlayerDemoTests.m */,
+				78B734C21FECF0620022B8FD /* Info.plist */,
+			);
+			path = KSYMediaPlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		78B734CA1FECF0620022B8FD /* KSYMediaPlayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78B734CB1FECF0620022B8FD /* KSYMediaPlayerDemoUITests.m */,
+				78B734CD1FECF0620022B8FD /* Info.plist */,
+			);
+			path = KSYMediaPlayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		78B734D91FECF40D0022B8FD /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				78F8B1E11FF23AC20052B492 /* KSYWaterFallLayout.h */,
+				78F8B1E21FF23AC20052B492 /* KSYWaterFallLayout.m */,
+				78FB974E1FF2334900B47B25 /* View */,
+				78FB974D1FF2334300B47B25 /* Model */,
+				78B734DE1FECF9CF0022B8FD /* ViewController */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		78B734DE1FECF9CF0022B8FD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				78B734DA1FECF4390022B8FD /* KSYMainViewController.h */,
+				78B734DB1FECF4390022B8FD /* KSYMainViewController.m */,
+				78F8B1E41FF2402B0052B492 /* KSYMainCollectionVC.h */,
+				78F8B1E51FF2402B0052B492 /* KSYMainCollectionVC.m */,
+				7800A7BC200492E000D75647 /* KSYLiveCollectionVC.h */,
+				7800A7BD200492E000D75647 /* KSYLiveCollectionVC.m */,
+				7800A7C22004982E00D75647 /* KSYSelectTypeViewController.h */,
+				7800A7C32004982E00D75647 /* KSYSelectTypeViewController.m */,
+				7800A7BF200497E800D75647 /* KSYCaremaViewController.h */,
+				7800A7C0200497E800D75647 /* KSYCaremaViewController.m */,
+				781042101FF102EE001FD5FE /* KSYPlayerViewController.h */,
+				781042111FF102EE001FD5FE /* KSYPlayerViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		78F69E0720035AFA002CAAA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78F69E0B20035BAB002CAAA5 /* Constant.h */,
+				78F69E0820035B10002CAAA5 /* KSYBaseView.h */,
+				78F69E0920035B10002CAAA5 /* KSYBaseView.m */,
+				7800A7A920047A4700D75647 /* KSYTabBarButton.h */,
+				7800A7AC20047A4700D75647 /* KSYTabBarButton.m */,
+				7800A7A820047A4700D75647 /* UIBarButtonItem+Item.h */,
+				7800A7AA20047A4700D75647 /* UIBarButtonItem+Item.m */,
+				7800A7AD20047A4700D75647 /* UIImage+image.h */,
+				7800A7A720047A4700D75647 /* UIImage+image.m */,
+				7800A7AE20047A4700D75647 /* WXCustomTabBar.h */,
+				7800A7AB20047A4700D75647 /* WXCustomTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78FB974D1FF2334300B47B25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78F8B1EA1FF244EB0052B492 /* KSYImageAndLableModel.h */,
+				78F8B1EB1FF244EB0052B492 /* KSYImageAndLableModel.m */,
+				78FB97051FF1EADF00B47B25 /* KSYPlayerModel.h */,
+				78FB97061FF1EADF00B47B25 /* KSYPlayerModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78FB974E1FF2334900B47B25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78F8B1E71FF242E50052B492 /* KSYImageAndLabelCollectionViewCell.h */,
+				78F8B1E81FF242E50052B492 /* KSYImageAndLabelCollectionViewCell.m */,
+				78F69E0420035669002CAAA5 /* KSYVodPlayOperationView.h */,
+				78F69E0520035669002CAAA5 /* KSYVodPlayOperationView.m */,
+				7819E40D1FFF4CAF00F1FC62 /* KSYVodPlayControlView.h */,
+				7819E40E1FFF4CAF00F1FC62 /* KSYVodPlayControlView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78FB974F1FF233B000B47B25 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				78B734A71FECF0620022B8FD /* AppDelegate.h */,
+				78B734A81FECF0620022B8FD /* AppDelegate.m */,
+				78B734AA1FECF0620022B8FD /* ViewController.h */,
+				78B734AB1FECF0620022B8FD /* ViewController.m */,
+				78FB97501FF2342F00B47B25 /* SettingModel */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		78FB97501FF2342F00B47B25 /* SettingModel */ = {
+			isa = PBXGroup;
+			children = (
+				78FB97511FF2344300B47B25 /* KSYSettingModel.h */,
+				78FB97521FF2344300B47B25 /* KSYSettingModel.m */,
+			);
+			path = SettingModel;
+			sourceTree = "<group>";
+		};
+		E4A9B8B57F7B1AD8A22FED9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A478EDF307590D5D39DE7C6 /* libPods-KSYMediaPlayerDemo.a */,
+				2C1D6E23C8FFFFE275E3C3BF /* libPods-KSYMediaPlayerDemoTests.a */,
+				7789EB31FCCD889C58935453 /* libPods-KSYMediaPlayerDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78B734A31FECF0620022B8FD /* KSYMediaPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B734D01FECF0620022B8FD /* Build configuration list for PBXNativeTarget "KSYMediaPlayerDemo" */;
+			buildPhases = (
+				63B39796633C6D09A2224B51 /* [CP] Check Pods Manifest.lock */,
+				78B734A01FECF0620022B8FD /* Sources */,
+				78B734A11FECF0620022B8FD /* Frameworks */,
+				78B734A21FECF0620022B8FD /* Resources */,
+				5E46364A4431A11813AF10B4 /* [CP] Embed Pods Frameworks */,
+				E3A7496D923F718FED20BF44 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSYMediaPlayerDemo;
+			productName = KSYMediaPlayerDemo;
+			productReference = 78B734A41FECF0620022B8FD /* KSYMediaPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78B734BB1FECF0620022B8FD /* KSYMediaPlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B734D31FECF0620022B8FD /* Build configuration list for PBXNativeTarget "KSYMediaPlayerDemoTests" */;
+			buildPhases = (
+				9D14D46FE53F4F15D3B7989B /* [CP] Check Pods Manifest.lock */,
+				78B734B81FECF0620022B8FD /* Sources */,
+				78B734B91FECF0620022B8FD /* Frameworks */,
+				78B734BA1FECF0620022B8FD /* Resources */,
+				0499332F929AB28B7BB3714C /* [CP] Embed Pods Frameworks */,
+				C3D0931CF66DB54AF5DF6A8B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78B734BE1FECF0620022B8FD /* PBXTargetDependency */,
+			);
+			name = KSYMediaPlayerDemoTests;
+			productName = KSYMediaPlayerDemoTests;
+			productReference = 78B734BC1FECF0620022B8FD /* KSYMediaPlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78B734C61FECF0620022B8FD /* KSYMediaPlayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B734D61FECF0620022B8FD /* Build configuration list for PBXNativeTarget "KSYMediaPlayerDemoUITests" */;
+			buildPhases = (
+				5AF16778E4B358F3D286A216 /* [CP] Check Pods Manifest.lock */,
+				78B734C31FECF0620022B8FD /* Sources */,
+				78B734C41FECF0620022B8FD /* Frameworks */,
+				78B734C51FECF0620022B8FD /* Resources */,
+				DF306943467965E2F165D3F0 /* [CP] Embed Pods Frameworks */,
+				6DA046ED56D20BD12512B9C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78B734C91FECF0620022B8FD /* PBXTargetDependency */,
+			);
+			name = KSYMediaPlayerDemoUITests;
+			productName = KSYMediaPlayerDemoUITests;
+			productReference = 78B734C71FECF0620022B8FD /* KSYMediaPlayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78B7349C1FECF0620022B8FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KSY;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "王旭";
+				TargetAttributes = {
+					78B734A31FECF0620022B8FD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					78B734BB1FECF0620022B8FD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78B734A31FECF0620022B8FD;
+					};
+					78B734C61FECF0620022B8FD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78B734A31FECF0620022B8FD;
+					};
+				};
+			};
+			buildConfigurationList = 78B7349F1FECF0620022B8FD /* Build configuration list for PBXProject "KSYMediaPlayerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78B7349B1FECF0620022B8FD;
+			productRefGroup = 78B734A51FECF0620022B8FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78B734A31FECF0620022B8FD /* KSYMediaPlayerDemo */,
+				78B734BB1FECF0620022B8FD /* KSYMediaPlayerDemoTests */,
+				78B734C61FECF0620022B8FD /* KSYMediaPlayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78B734A21FECF0620022B8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F8B1E01FF23A8C0052B492 /* 2a56ea3e36eeb45ac1cfb2e79ac6dc20.jpg in Resources */,
+				7810420F1FF100E4001FD5FE /* 屏幕录制.MP4 in Resources */,
+				78B734B41FECF0620022B8FD /* LaunchScreen.storyboard in Resources */,
+				7810420D1FF100D6001FD5FE /* ScreenRecording.MP4 in Resources */,
+				7810420B1FF100C5001FD5FE /* 618443029.mp4 in Resources */,
+				78B734B11FECF0620022B8FD /* Assets.xcassets in Resources */,
+				78B734AF1FECF0620022B8FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B734BA1FECF0620022B8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B734C51FECF0620022B8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0499332F929AB28B7BB3714C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSYMediaPlayerDemoTests/Pods-KSYMediaPlayerDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AF16778E4B358F3D286A216 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSYMediaPlayerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E46364A4431A11813AF10B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSYMediaPlayerDemo/Pods-KSYMediaPlayerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B39796633C6D09A2224B51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSYMediaPlayerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DA046ED56D20BD12512B9C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSYMediaPlayerDemoUITests/Pods-KSYMediaPlayerDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D14D46FE53F4F15D3B7989B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSYMediaPlayerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D0931CF66DB54AF5DF6A8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSYMediaPlayerDemoTests/Pods-KSYMediaPlayerDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF306943467965E2F165D3F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSYMediaPlayerDemoUITests/Pods-KSYMediaPlayerDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A7496D923F718FED20BF44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KSYMediaPlayerDemo/Pods-KSYMediaPlayerDemo-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/libksygpulive/resource/KSYGPUResource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSYMediaPlayerDemo/Pods-KSYMediaPlayerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78B734A01FECF0620022B8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B734AC1FECF0620022B8FD /* ViewController.m in Sources */,
+				783CC1341FF37F0A00556DB7 /* KSYHttpTool.m in Sources */,
+				78B734DC1FECF4390022B8FD /* KSYMainViewController.m in Sources */,
+				7800A7B220047A4700D75647 /* KSYTabBarButton.m in Sources */,
+				7819E40C1FFF1F2800F1FC62 /* KSYBaseViewController.m in Sources */,
+				78F8B1E61FF2402B0052B492 /* KSYMainCollectionVC.m in Sources */,
+				7800A7B120047A4700D75647 /* WXCustomTabBar.m in Sources */,
+				7800A7C1200497E800D75647 /* KSYCaremaViewController.m in Sources */,
+				7819E4131FFF5DED00F1FC62 /* UIColor+Additions.m in Sources */,
+				7800A7A620047A3500D75647 /* KSYTabBarViewController.m in Sources */,
+				7800A7B020047A4700D75647 /* UIBarButtonItem+Item.m in Sources */,
+				7800A7BE200492E100D75647 /* KSYLiveCollectionVC.m in Sources */,
+				7800A7C42004982E00D75647 /* KSYSelectTypeViewController.m in Sources */,
+				78F8B1E91FF242E50052B492 /* KSYImageAndLabelCollectionViewCell.m in Sources */,
+				7800A7B820047A5000D75647 /* UIButton+Extension.m in Sources */,
+				7800A7AF20047A4700D75647 /* UIImage+image.m in Sources */,
+				78F69E0A20035B10002CAAA5 /* KSYBaseView.m in Sources */,
+				7800A7A520047A3500D75647 /* KSYNavigationViewController.m in Sources */,
+				78B734B71FECF0620022B8FD /* main.m in Sources */,
+				7819E40F1FFF4CAF00F1FC62 /* KSYVodPlayControlView.m in Sources */,
+				78B734A91FECF0620022B8FD /* AppDelegate.m in Sources */,
+				78F8B1EC1FF244EB0052B492 /* KSYImageAndLableModel.m in Sources */,
+				78FB97531FF2344300B47B25 /* KSYSettingModel.m in Sources */,
+				78FB97071FF1EADF00B47B25 /* KSYPlayerModel.m in Sources */,
+				7800A7B720047A5000D75647 /* UIView+Extension.m in Sources */,
+				7819E4161FFF5EFE00F1FC62 /* UIButton+KSYAdditions.m in Sources */,
+				78F8B1E31FF23AC20052B492 /* KSYWaterFallLayout.m in Sources */,
+				78F69E0620035669002CAAA5 /* KSYVodPlayOperationView.m in Sources */,
+				781042121FF102EE001FD5FE /* KSYPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B734B81FECF0620022B8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B734C11FECF0620022B8FD /* KSYMediaPlayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B734C31FECF0620022B8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B734CC1FECF0620022B8FD /* KSYMediaPlayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78B734BE1FECF0620022B8FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78B734A31FECF0620022B8FD /* KSYMediaPlayerDemo */;
+			targetProxy = 78B734BD1FECF0620022B8FD /* PBXContainerItemProxy */;
+		};
+		78B734C91FECF0620022B8FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78B734A31FECF0620022B8FD /* KSYMediaPlayerDemo */;
+			targetProxy = 78B734C81FECF0620022B8FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78B734AD1FECF0620022B8FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B734AE1FECF0620022B8FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78B734B21FECF0620022B8FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B734B31FECF0620022B8FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78B734CE1FECF0620022B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78B734CF1FECF0620022B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78B734D11FECF0620022B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FC0E85DE3FDB2330D7E48E /* Pods-KSYMediaPlayerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGJ54Q7R45;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KSYMediaPlayerDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = KSYMediaPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wx.KSYMediaPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78B734D21FECF0620022B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1FB41898FDA9C4A76965B2F /* Pods-KSYMediaPlayerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGJ54Q7R45;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KSYMediaPlayerDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = KSYMediaPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wx.KSYMediaPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78B734D41FECF0620022B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF0CE01B1B58C373E5F0208 /* Pods-KSYMediaPlayerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSYMediaPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wx.KSYMediaPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSYMediaPlayerDemo.app/KSYMediaPlayerDemo";
+			};
+			name = Debug;
+		};
+		78B734D51FECF0620022B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F921F5C38C1C5D3C46C73E6A /* Pods-KSYMediaPlayerDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSYMediaPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wx.KSYMediaPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSYMediaPlayerDemo.app/KSYMediaPlayerDemo";
+			};
+			name = Release;
+		};
+		78B734D71FECF0620022B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93E3B58463952823986DB5CA /* Pods-KSYMediaPlayerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSYMediaPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wx.KSYMediaPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSYMediaPlayerDemo;
+			};
+			name = Debug;
+		};
+		78B734D81FECF0620022B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 599678A5201DC98F4239732C /* Pods-KSYMediaPlayerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSYMediaPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wx.KSYMediaPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSYMediaPlayerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78B7349F1FECF0620022B8FD /* Build configuration list for PBXProject "KSYMediaPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B734CE1FECF0620022B8FD /* Debug */,
+				78B734CF1FECF0620022B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78B734D01FECF0620022B8FD /* Build configuration list for PBXNativeTarget "KSYMediaPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B734D11FECF0620022B8FD /* Debug */,
+				78B734D21FECF0620022B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78B734D31FECF0620022B8FD /* Build configuration list for PBXNativeTarget "KSYMediaPlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B734D41FECF0620022B8FD /* Debug */,
+				78B734D51FECF0620022B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78B734D61FECF0620022B8FD /* Build configuration list for PBXNativeTarget "KSYMediaPlayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B734D71FECF0620022B8FD /* Debug */,
+				78B734D81FECF0620022B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78B7349C1FECF0620022B8FD /* Project object */;
+}
